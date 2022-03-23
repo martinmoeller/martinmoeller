@@ -1,1 +1,1 @@
-C, Perl, LISP. FreeBSD hacker, GNOME bugsquad, early adopter.
+C, Perl, Objective-C, Kotlin. FreeBSD hacker, GNOME bugsquad, early adopter.
