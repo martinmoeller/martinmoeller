@@ -1,6 +1,6 @@
 /* Grundlegende Stileinstellungen */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     color: #333;
@@ -10,7 +10,7 @@ body {
 
 /* Header-Stile */
 header {
-    background: linear-gradient(90deg, #8B0000, #B22222);
+    background-color: #8B0000;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -21,6 +21,7 @@ header {
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -36,7 +37,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffdd57;
+    color: #FFD700;
 }
 
 /* Hauptinhalt */
@@ -44,6 +45,9 @@ main {
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 section {
@@ -57,30 +61,14 @@ h2 {
 }
 
 /* Spezifische Sektionen */
-#home {
-    background: white;
+#home, #about, #contact {
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#about {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#contact {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Fußzeile */
 footer {
-    background: #8B0000;
+    background-color: #8B0000;
     color: white;
     text-align: center;
     padding: 10px 0;
